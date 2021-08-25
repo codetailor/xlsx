@@ -1,7 +1,5 @@
 'use strict';
 
-require('dotenv').config({ path: 'test/.env' });
-
 const test = require('tape');
 const xlsx = require('../index');
 
