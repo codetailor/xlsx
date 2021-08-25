@@ -1,0 +1,31 @@
+{
+  "name": "@codetailor/xlsx",
+  "version": "0.0.1",
+  "description": "Simple XLSX module for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/index.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codetailor/xlsx.git"
+  },
+  "keywords": [],
+  "author": "Ricardo Nunes (https://ricardonunes.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codetailor/xlsx/issues"
+  },
+  "homepage": "https://github.com/codetailor/xlsx#readme",
+  "dependencies": {
+    "xlsx": "^0.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "faucet": "^0.0.1",
+    "tape": "^5.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
