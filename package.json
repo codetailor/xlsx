@@ -21,7 +21,6 @@
     "xlsx": "^0.17.1"
   },
   "devDependencies": {
-    "dotenv": "^10.0.0",
     "faucet": "^0.0.1",
     "tape": "^5.3.1"
   },
