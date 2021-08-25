@@ -58,4 +58,7 @@ test('Write XLSX file', async (t) => {
 	// Check
 	t.ok(fs.existsSync(localFilePath));
 	t.end();
+
+	// Cleanup
+	fs.unlinkSync(localFilePath);
 });
